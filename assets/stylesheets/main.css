@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*General CSS*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+ .clearfix:after {
+    clear: both;
+}
+body {
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+}
+.padding {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+/*Header*/
+
+header {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #AF1641;
+	text-transform: uppercase;
+}
+
+nav a {
+  	text-decoration: none;
+  	color: white;
+}
+.navigation {
+	font-size: 15px;
+  	float: right;
+  	word-spacing: 10px;
+  	font-weight: 300;
+  	padding-top: 10px;
+  	color: rgba(255,255,255,0.6);
+}
+.logo {
+	font-size: 30px;
+	font-weight: 500;
+}
+.btn {
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+	background-color: #DC572E;
+	border-radius: 5%;
+	border: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: rgba(255,255,255, 0.8);
+}
+	
+/*Hero*/
+.title {
+	text-align: center;
+}
+.hero {
+	background-color: #AF1641;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.title p {
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-size: 25px;
+	color: rgba(255, 255, 255,0.7);
+}
+button {
+	margin-top: 50px;
+	padding: 10px 40px 10px 40px;
+	background-color: #DC572E;
+	border-radius: 5%;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: rgba(255,255,255, 0.8);
+}
+.sec-1 h2 {
+	color: #2B3F48;
+	
+}
+.byline {
+	color: #6F6F6F;
+	font-size: 20px;
+	padding-bottom: 16px;
+}
+.sec-1 p {
+	color: #656565;
+	font-size: 16px;
+	text-transform: none;
+	padding-top: 30px;
+}
+.sec-1 button {
+	background-color: #AF1641;
+}
+
+
+
+
+.sec-2 {
+	background-color: #AF1641;
+}
+.sec-2 img {
+	padding-bottom: 30px;
+}
+.sec-2 span {
+	padding-top: 2px;
+	color: #DFA2B3;
+	font-size: 23px;
+}
+.sec-2 p {
+	
+	font-size: 16px;
+	text-transform: none;
+}
+.sec-2 p a {
+	color: white;
+}
+.sec-2 button {
+	background-color: white;
+	color: #AF1641;
+}
+
+
+
+.sec-4 {
+	text-align: center;
+}
+.sec-4 h2 {
+	color: #2B3F48;
+}
+.sec-4 span {
+	padding-top: 2px;
+	font-size: 23px;
+	padding-bottom: 20px;
+}
+.sec-4 button {
+	background-color: #AF1641;
+	color: white;
+}
+.sec-4 .box {
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 10%;
+	padding:30px 20px 30px 20px ;
+}
+.three-column {
+	padding-top: 30px;
+}
+.boxA, .boxB, .boxC {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+}
+
+
+
+
+
+footer {
+	background-color: #333333;
+	text-align: center;
+	color: rgba(255,255,255,0.6);
+}
+
+footer a {
+	color:white;
+}
